@@ -18,13 +18,13 @@ Let \( V = \{1, 2, ..., n\} \) be the set of vertices in the graph.
 
 - Constraints:
   - Each vertex must be assigned exactly one color:
-    \[ \sum_{i=1}^{K} x_{iv} = 1, \quad \forall v \in V \]
+    $$ \sum_{i=1}^{K} x_{iv} = 1, \quad \forall v \in V $$
 
   - Adjacent vertices cannot have the same color:
-    \[ x_{iv} + x_{jv} \leq 1, \quad \forall (i, j) \in E, \forall v \in V \]
+    $$ x_{iv} + x_{jv} \leq 1, \quad \forall (i, j) \in E, \forall v \in V $$
 
   - Non-negativity constraint:
-    \[ x_{iv} \in \{0, 1\}, \quad \forall i, v \]
+    $$ x_{iv} \in \{0, 1\}, \quad \forall i, v $$
 
 ### Solution Methodologies:
 
